@@ -1,0 +1,113 @@
+.outerDiv {
+    border: solid black 1px;
+    margin-right: 10px;
+    float: left;
+    border-radius: 10px;
+}
+
+#Menu {
+    height: 470px;
+    padding: 10px;
+}
+
+.menuButton {
+    background-color: darkgrey;
+    margin-bottom: 5px;
+}
+
+.menuButton:hover {
+    background-color: lightslategrey;
+}
+
+.menuButton:focus {
+    outline: none;
+}
+
+#Field {
+    padding: 5px;
+}
+
+.fieldCell {
+    background-color: white;
+    height: 50px;
+    width: 50px;
+    border: solid darkslategray 1px;
+    float: left;
+    text-align: center;
+    font-size: 270%;
+    cursor: default;
+}
+
+.lockedCell {
+    font-weight: bold;
+}
+
+.nextLine {
+    clear: left;
+}
+
+.fieldRec {
+    float: left;
+    border: solid black 2px;
+}
+
+.currentCell {
+    border: dashed red 1px;
+}
+
+.hidden {
+    display: none;
+}
+
+.marks {
+    text-align: left;
+    font-size: 125%;
+    word-wrap: break-word;
+}
+
+.collisionCell {
+    background-color: darkgray;
+}
+
+#Keyboard {
+    padding: 5px;
+}
+
+#KeyboardValues {
+    float: left;
+}
+
+#KeyboardMarks,
+#KeyboardMarksWrapper {
+    float: right;
+}
+
+#KeyboardMarksWrapper i {
+    display: block;
+}
+
+#KeyboardAdditional {
+    clear: left;
+}
+
+#KeyboardAdditional .keyboardButton {
+    margin-top: 10px;
+    float: left;
+}
+
+.keyboardButton {
+    height: 30px;
+    width: 30px;
+    border: solid darkslategray 1px;
+    text-align: center;
+    font-size: 175%;
+    cursor: default;
+}
+
+.keyboardButton:hover {
+    background-color: darkgray;
+}
+
+.keyboardButton:active {
+    background-color: dimgray;
+}

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mocha/2.1.0/mocha.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mocha/2.1.0/mocha.js"></script>
+    <script>
+        mocha.setup('bdd');
+    </script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/chai/2.0.0/chai.js"></script>
+    <script>
+        var assert = chai.assert;
+    </script>
+
+    <script src="test.js"></script>
+
+    <script src="../lib/matrix.js"></script>
+    <script src="../lib/sudoku.js"></script>
+    <script src="../src/Main.js"></script>
+    <script src="../src/VisualComponent.js"></script>
+    <script src="../src/Cell.js"></script>
+    <script src="../src/Field.js"></script>
+    <script src="../src/Sudoku.js"></script>
+</head>
+<body>
+    <div id="mocha"></div>
+
+    <script>
+        mocha.run();
+    </script>
+</body>
+</html>

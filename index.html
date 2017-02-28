@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="utf-8">
+    <script src="lib/matrix.js"></script>
+    <script src="lib/sudoku.js"></script>
+    <script src="lib/jquery-3.1.1.min.js"></script>
+
+    <script src="src/ProcessButton.js"></script>
+    <script src="src/Main.js"></script>
+    <script src="src/VisualComponent.js"></script>
+    <script src="src/Cell.js"></script>
+    <script src="src/Field.js"></script>
+    <script src="src/Sudoku.js"></script>
+    <link rel="stylesheet" type="text/css" href="styles/index.css">
+</head>
+<body>
+    <div id="Main">
+        <div id="Menu" class="outerDiv">
+            <div id="Refresh"></div>
+            <div id="NewGame"></div>
+        </div>
+
+        <div id="Field" class="outerDiv"></div>
+
+        <div id="Keyboard" class="outerDiv">
+            <div id="KeyboardValues">
+                <i>Values</i>
+            </div>
+            <div id="KeyboardMarksWrapper">
+                <i>Marks</i>
+                <div id="KeyboardMarks">
+
+                </div>
+            </div>
+            <div id="KeyboardAdditional"></div>
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            var sudoku = new Game.Sudoku();
+            sudoku.init();
+        });
+    </script>
+</body>
+</html>
